@@ -162,3 +162,98 @@ h1{
 .nav-item a:hover{
     background-color: rgba(26, 26, 1, 0.15);
 }
+
+.close-icon i{
+    font-size: 20px;
+    float: left;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+.bar-icon{
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: helvetica;
+    src: url(helvetica-light.ttf);
+}
+
+.brand{
+    font-size: 30px;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*navbar for mobile*/
+
+@media screen and (max-width:460px){
+
+    .navbar{
+        display:flex;
+        align-items: center;
+    }
+    
+    .navigation{
+        max-height: auto;
+    }
+    
+   
+    
+    .nav-item a{
+        float:left;
+        display:inline;
+        margin-inline: 3px;
+        font-size: 10px;
+        padding:  5px;
+        color:rgb(25, 6, 116);
+    }
+    
+    .close-icon i{
+        font-size: 15px;
+        float: left;
+        cursor: pointer;
+    }
+    
+    .brand{
+        font-size: 15px;
+    }
+
+}
+
+
+.search-box{
+    border: solid 1px #52057b;
+    margin-top: 20px;
+    padding: 40px;
+    display:flex;
+    justify-content: center;
+    box-shadow:1px 2px 3px #52057b;
+}
+
+.search-box select{
+    padding: 3px;
+}
+
+.search-box input{
+    padding: 3px;
+}
+
+.search-box button{
+    padding: 3px;
+    background-color:#fff;
+    color:black;
+}
+
+.search-box button:hover{
+    background-color: #000000;
+    color: #fff;
+    box-shadow: 1px 2px 3px #52057b;
+}
