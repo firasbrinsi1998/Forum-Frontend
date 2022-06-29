@@ -10,7 +10,7 @@ html{
     background-color: #dfe3e6;
     background-image: URL('bg.jpg');
     background-size: cover; 
-    height: 1200px;
+   
 
 }
 
@@ -72,6 +72,13 @@ h1{
     align-items: center;
 }
 
+.subforum-divider{
+    display: block;
+    border:thin;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(190, 190, 190, 0), rgba(103, 0, 154, 0.75), rgba(147, 5, 255, 0));
+}
+
 /*Mobile Screens*/
 
 @media screen and (max-width: 460px) {
@@ -86,7 +93,6 @@ h1{
         grid-template-columns: 25% 75%;
         grid-template-rows: 65% 35%;
     }
-
 
 
 }
@@ -116,3 +122,43 @@ h1{
     }
 
   }
+
+  /* Navbar */
+
+  header{
+    margin-inline: 10px;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+}
+
+.navigation{
+    background-color:transparent;
+    padding: 10px;
+    width: 65%;
+    display: inline-block;
+    border-radius: 5px;
+    max-height: 80px;
+    margin-right:10px;
+}
+
+.nav-list{
+    list-style-type:none;
+    overflow: hidden;
+}
+
+.nav-item a{
+    float: right;
+    display:block;
+    text-align: center;
+    margin-inline: 20px;
+    font-size: 20px;
+    padding: 10px;
+    color:rgb(25, 6, 116);
+}
+
+.nav-item a:hover{
+    background-color: rgba(26, 26, 1, 0.15);
+}
