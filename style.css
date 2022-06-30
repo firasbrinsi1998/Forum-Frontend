@@ -257,3 +257,231 @@ h1{
     color: #fff;
     box-shadow: 1px 2px 3px #52057b;
 }
+
+/* search box for smartphones */
+@media screen and (max-width: 460px){
+    .search-box input, .search-box button, .search-box select{
+        min-width: 300px;
+        margin-top: 5px;
+    }    
+
+}
+
+/* forum info*/
+.forum-info{
+    padding: 20px;
+}
+
+.chart{
+    font-size:16px;
+    font-weight:bold;
+}
+
+footer{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 5, 101, 0.052);
+    display: block;
+    text-align: center;
+    
+}
+
+
+/*            posts.html                       */
+/* ########################################### */
+
+/* posts table's head  */
+.table-head{
+    display: flex;
+    border-style:groove;
+    border-color: navy;
+}
+
+.table-head div{
+    padding: 5px;
+    margin: 2px;
+    background-color: rgba(255, 5, 101, 0.052);
+
+    font-weight: bold;
+    
+}
+
+.table-head .status{
+    flex: 5%;
+    
+}
+
+.table-head .subjects{
+    flex: 70%;
+}
+
+.table-head .replies{
+    flex: 10%;
+}
+
+.table-head .last-reply{
+    flex: 15%;
+}
+
+/* posts table's body  */
+
+.table-row{
+    display: flex;
+    border-style:groove;
+    border-color: navy;
+    border-width: 1px;
+}
+
+.table-row .status, .table-row .subjects, .table-row .replies, .table-row .last-reply{
+    padding: 5px;
+    margin: 2px;
+    background-color: rgba(255, 5, 101, 0.052);
+
+}
+
+.table-row .status{
+    flex: 5%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.table-row .subjects{
+    flex: 70%;
+}
+
+.table-row .replies{
+    flex: 10%;
+}
+
+.table-row .last-reply{
+    flex: 15%;
+}
+
+/* navigation path*/
+.navigate{
+    margin-block: 20px;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.navigate a{
+    color: navy;
+}
+
+.navigate a:hover{
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+/* Pagination*/
+
+.pagination{
+    padding: 20px;
+    font-size: 15px;
+}
+
+.pagination a{
+    color: black;
+    margin-inline: 5px;
+    padding: 5px 10px;
+    border: solid 0.5px black;
+}
+
+.pagination a:hover{
+    opacity: 0.5;
+}
+
+.note{
+    background-color: rgba(5, 18, 255, 0.052);
+    padding: 20px;
+    display: block;
+}
+
+.note span{
+    font-size: 20px;
+    margin-block: 5px;
+}
+
+
+/* ########################################### */
+/*            detail.html                      */
+/* ########################################### */
+
+
+.head{
+    display: flex;
+    background-color: lightblue;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    border-style:groove;
+    border-color: navy;
+}
+
+.authors{
+    flex: 20%;
+}
+
+.content{
+    flex: 80%;
+}
+
+.body{
+    display: flex;
+    background-color: lightblue;
+    padding: 10px;
+    margin-top: 5px;
+    border-style:groove;
+    border-color: navy;
+
+}
+
+.body .authors .username{
+    font-size: 20px;
+}
+
+.body .authors img{
+    max-width: 50px;
+    max-height: 80px;
+}
+
+.body .content .comment button{
+    border:none;
+    padding:10px;
+    font-weight: bolder;
+    box-shadow: 4px 6px #fff;
+    cursor: pointer;
+    float: right;
+}
+
+/* comment section */
+.comment-area{
+    margin-bottom:50px;
+}
+
+.comment-area textarea{
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    margin-block: 10px;
+}
+
+.comment-area input{
+    float: right;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.comment-area input:hover{
+    border: solid 1px #000000;
+}
+
+
+
+
+
+
+
+
+
