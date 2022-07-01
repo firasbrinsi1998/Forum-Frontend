@@ -27,6 +27,14 @@ h1{
 
 /* homepage.html */
 
+.titre{
+    text-align: center;
+}
+
+.paragraphe{
+    text-align: center;
+    font-size:18px  ;
+}
 .container{
     margin: 20px;
     padding: 20px;
